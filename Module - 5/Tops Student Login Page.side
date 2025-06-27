@@ -1,0 +1,301 @@
+{
+  "id": "88937914-f59c-4ae1-9e58-9b4ab8a33ef5",
+  "version": "2.0",
+  "name": "Tops Student Login Page",
+  "url": "https://careercenter.tops-int.com",
+  "tests": [{
+    "id": "2c32e3b5-9c02-4001-bdb8-d6601a9f61a8",
+    "name": "Student Login Page",
+    "commands": [{
+      "id": "fc91724d-d435-488b-9773-273c38b74117",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fffe7655-6b2d-46a5-88ee-e18d406bf1f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "794x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e20c208-8007-4149-8e8d-5136a9f95ef8",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "6353306381"
+    }, {
+      "id": "7bd0fe15-5b00-4dcc-b81c-61d224eddafe",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Jarvis Mark42"
+    }, {
+      "id": "eaea5447-6c57-4a78-91c3-48211bf45078",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a96f39-cf94-43f9-bf90-06b0ac87a6b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "987fd1a5-ea89-41e6-9067-f577733e3130",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93877c08-08fb-4a9a-8ba6-ee180facbc5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8776b6d6-15a9-44da-be84-7a7eb22177ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "567f54ed-38be-4546-ac92-db8033e4e643",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "6353306381"
+    }, {
+      "id": "6c89d0fc-819c-4e6f-a9e8-a9de2bb12bc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56326d32-e7cb-4abd-8c75-1c84a5e0125e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Jarvis Mark42"
+    }, {
+      "id": "612a3632-e336-4413-b3d0-cc5b1af8695b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-3 > .btn",
+      "targets": [
+        ["css=.mt-3 > .btn", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d5b5f6-a525-48aa-8d3e-a0785b88812b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#course-dropdown > .pe-3",
+      "targets": [
+        ["css=#course-dropdown > .pe-3", "css:finder"],
+        ["xpath=//a[@id='course-dropdown']/span", "xpath:idRelative"],
+        ["xpath=//ul/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Diploma In Software Testing And Automation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad2c5df8-3711-4545-9a82-3b8691a4a1db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Assessment",
+      "targets": [
+        ["linkText=Assessment", "linkText"],
+        ["css=.show > li:nth-child(4) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Assessment')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[16]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9ed5a5f-68bb-4b11-a34c-857f7a308fec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Assessment",
+      "targets": [
+        ["linkText=Assessment", "linkText"],
+        ["css=.show > li:nth-child(4) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Assessment')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[16]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e7a34a1-ee2b-428a-90d1-3a685480e929",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.my-1 li:nth-child(4) > .dropdown-item",
+      "targets": [
+        ["css=.my-1 li:nth-child(4) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Assessment')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[16]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dc28dbf-03ef-433c-a32c-eef8792ac847",
+      "comment": "",
+      "command": "click",
+      "target": "css=#profileDropdown > span:nth-child(3)",
+      "targets": [
+        ["css=#profileDropdown > span:nth-child(3)", "css:finder"],
+        ["xpath=//a[@id='profileDropdown']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "226dbfdf-6f73-4df5-a8d5-8ad60c19764c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(4) > .text-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='main-header']/div/div/div[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://careercenter.tops-int.com/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4255445e-050e-4730-bc99-ff4f6d950e25",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "6353306381"
+    }, {
+      "id": "54f5db07-2aed-4ddb-83f3-a235cc54ea39",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Jarvis Mark42"
+    }, {
+      "id": "d7f0f081-87e4-4f89-8712-ebe503e57b25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa",
+      "targets": [
+        ["css=.fa", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1feb8de3-34cd-4bdc-9e63-cef9f7eb5a94",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c32e3b5-9c02-4001-bdb8-d6601a9f61a8"]
+  }],
+  "urls": ["https://careercenter.tops-int.com/"],
+  "plugins": []
+}

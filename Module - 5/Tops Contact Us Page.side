@@ -1,0 +1,152 @@
+{
+  "id": "699cb04f-9318-4420-8fb3-443248c2c8d2",
+  "version": "2.0",
+  "name": "Tops Contact Us Page",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "39a2d2d4-594c-4e1b-b49a-5b7c6f947d3a",
+    "name": "Contact US",
+    "commands": [{
+      "id": "cbea884d-3f9d-48c0-a69f-70f93b90d78a",
+      "comment": "",
+      "command": "open",
+      "target": "/it-training-rajkot?utm_source=google_ads&utm_medium=Gads&utm_campaign=comp_rajkot&gad_source=1&gad_campaignid=22675551286&gbraid=0AAAAADrYDqSm-t97cAguHToLedy7F08m6&gclid=Cj0KCQjwgvnCBhCqARIsADBLZoJA1X-1kCwklpbBHdM3tPBilkigfgPujKoEwYbJdWAphajL0GIj1BYaAuf7EALw_wcB",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f37dbd2-3275-448b-aef0-f40638fb0cf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78d5d3f2-e11f-4881-9f90-c8510fc900d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarNav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[195]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9512fc02-7653-4289-9255-ad912aed1bed",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Contact us",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95a49e32-0e26-40fd-b992-46bb9925761e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd08cb6c-6c5c-479b-bc7a-4636a1911f00",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Darshan Gohil"
+    }, {
+      "id": "84936898-7f2d-45da-bf84-6f7fc84b6a19",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c791b29b-f8df-4251-903f-cb34c36ca292",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "gohildarshan151@gmail.com"
+    }, {
+      "id": "236d6739-4a46-4396-8103-316c925b8b72",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22a4e0f3-e2e7-4f76-a42a-30b227aa992f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "6353306381"
+    }, {
+      "id": "7974a51f-6594-422d-be4e-1d8ef3274b2b",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.px-3 > div .text-center",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bef4442e-c59f-419c-b873-35e79faad9b0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d937356-8f5a-4e3d-adcf-2d3e65a92041",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39a2d2d4-594c-4e1b-b49a-5b7c6f947d3a"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
